@@ -4,7 +4,6 @@ from enum import Enum
 from pydantic import BaseModel
 from openai import OpenAI
 from pyvis.network import Network
-import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 
 st.set_page_config(layout="wide", page_title="Process ID")
